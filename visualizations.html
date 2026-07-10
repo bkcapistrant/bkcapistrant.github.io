@@ -26,6 +26,9 @@
 				display: block;
 				border-radius: 4px;
 			}
+			.viz-item video.hover-play {
+				cursor: pointer;
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -66,14 +69,22 @@
 							<div class="box alt">
 								<div class="row gtr-50 gtr-uniform">
 									<!-- Planet Engulfment Visualization -->
-									<div class="col-6 col-12-medium viz-item"> 
-										<span class="image fit"><img src="images/PlanetEngulf.png" alt="Planet Engulfment Visualization" /></span>
+									<div class="col-6 col-12-medium viz-item">
+										<span class="image fit">
+											<video class="hover-play" muted loop preload="none" poster="images/PlanetEngulf.png" aria-label="Planet Engulfment Visualization">
+												<source src="images/PlanetEngulfProcess.mp4" type="video/mp4">
+											</video>
+										</span>
 										<p class="caption">Illustration of the star TOI-5882, starting to strip away material to eventually engulf its companion TOI-5882 b, a brown dwarf about 22 times the mass of Jupiter. I created this artwork to depict results from a pair of studies on this compelling system (<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ae71bb">Kotten et al. 2026</a> & <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ae7e89">Narayan et al. 2026</a>). These studies investigate observed enchanced lithium as evidence that the host star has engulfed a previous planet, and model the system's tidal evolution to suggest its remaining brown dwarf companion is inspiraling faster than previously estimated. This ilustration was featured in an article by The New York Times on the two studies, check it out <a href="https://www.nytimes.com/2026/07/09/science/space/planetary-engulfment-hungry-star.html?unlocked_article_code=1.wVA.QsOt.66_smuYlLZ2G&smid=url-share">here</a>!</p>
 									</div>		 
 
 									<!-- Atmosphere Escape Visualization -->
 									 <div class="col-6 col-12-medium viz-item">
-										<span class="image fit"><img src="images/AtmosphereEscape.png" alt="Atmosphere Escape Visualization" /></span>
+										<span class="image fit">
+											<video class="hover-play" muted loop preload="none" poster="images/AtmosphereEscape.png" aria-label="Atmosphere Escape Visualization">
+												<source src="images/AtmosphereEscapeProcess.mp4" type="video/mp4">
+											</video>
+										</span>
 										<p class="caption">Visualization of atmospheric escape from an ultra-hot Jupiter exoplanet.
 									 The planet's atmosphere is being stripped away by the intense radiation from its host star, creating a comet-like tail of escaping gas. This process can significantly impact the evolution and habitability of rocky exoplanets, but is easiest to observe on gas giant planets with inflated atmospheres. (Inspired by the illustration GJ 436 b by Mark Garlick/University of Warwick)</p>
 										</div>
@@ -85,13 +96,21 @@
 									
 									<!-- HD 63433d Concept Art -->
 									<div class="col-6 col-12-medium viz-item">
-										<span class="image fit"><img src="images/HD63433dDrawing.png" alt="HD 63433d concept art" /></span>
+										<span class="image fit">
+											<video class="hover-play" muted loop preload="none" poster="images/HD63433dDrawing.png" aria-label="HD 63433d concept art">
+												<source src="images/HD63433dProcess.mp4" type="video/mp4">
+											</video>
+										</span>
 										<p class="caption">Concept art of HD 63433d, an Earth-sized exoplanet (1.25 Earth Masses) with a closely orbiting a Sun-like star in the 400 Myr Ursa Major Moving Group. Due to its proximity to its host star, this planet is likely tidally locked with an extemely hot or even molten surface that faces its host star. Our team reports on the discovery of this planet in our <a href="https://ui.adsabs.harvard.edu/abs/2024AJ....167...54C/abstract">2024 publication</a>.</p>
 									</div>
 
 									<!-- HD 63433d radii comparison -->
 									<div class="col-6 col-12-medium viz-item">
-										<span class="image fit"><img src="images/HD63433Radii.png" alt="HD 63433d radii" /></span>
+										<span class="image fit">
+											<video class="hover-play" muted loop preload="none" poster="images/HD63433Radii.png" aria-label="HD 63433d radii">
+												<source src="images/HD63433RadiiProcess.mp4" type="video/mp4">
+											</video>
+										</span>
 										<p class="caption">Radii comparison of the three planets in the HD 63433 system. While planet d is fairly Earth-sized (1.073 Earth Radii), its previously detected companions planets b and c are closer to Neptune-sized. While the relative radii of the planets is accurate, color choices for these planets are artistic rather than scientific. </p>
 									</div>
 
@@ -101,6 +120,15 @@
 										<span class="image fit"><img src="images/HD63433OrbitComparision.png" alt="HD 63433 three-planet system" /></span>
 										<p class="caption">Orbit comparison of the HD 63433 three-planet system to our Inner Solar System planets. All three of the planets orbit close to their Sun-like star, falling within the orbit of Mercury. HD 63433d, the innermost Earth-sized planet detected by our team (red), orbits with a period of only 4 days! </p>
 									</div>
+
+									<!-- Three Planet Illustration -->
+									<div class="col-6 col-12-medium viz-item">
+										<span class="image fit">
+											<video class="hover-play" muted loop preload="none" poster="images/threeplanet.webp" aria-label="Three planet illustration">
+												<source src="images/threeplanetProcess.mp4" type="video/mp4">
+											</video>
+											<p class="caption">We've now discovered over 6000 exoplanets to date, in addition to making a cool wallpaper for the homepage of this website,  with this drawing I wanted to illustrate what some of these planets might look like (scaled to the same size of course). The left represents a gas giant planet, similar to Jupiter in our own solar system, which are often easier to detect than small, rocky planets with the methods we use. The right planet represents a so-called lava-world. Smaller planets that we have discovered are also easier to detect when they are close to their host star, and we have found many (like HD 63433 d!) that orbit well within even Mercury's orbit. The orbital properties of these planets lead us to believe they are likely tidally locked to the star, with one (extremely hot) side always facing the star like the Moon does to Earth. Finally, the middle planet represents the Earth-like planet we're all still searching for, one in the habitable zone of its star, capable of retaining liquid water on its surface and hosting a breathable atmosphere. Perhaps a civilization or two already reside there, that we might be able to contact some day.  </p>
+										</span>
 
 									<div class="col-6 col-12-medium viz-item">
 										<span class="image fit"><img src="images/Transmission_Spectra.png" alt="TLSE" /></span>
@@ -124,6 +152,7 @@
 
 						</section>
 						<div id="footnote">
+						<p>If you're interested in having me visualize your science, feel free to contact me!</p>
 						<p>No AI was used to generate any of these visualizations.</p>
 					</div>
 					</div>
@@ -134,6 +163,14 @@
 					</div>
 
 			</div>
+
+		<!-- Hover-to-play -->
+			<script>
+				document.querySelectorAll('video.hover-play').forEach(function(video) {
+					video.addEventListener('mouseenter', function() { this.play(); });
+					video.addEventListener('mouseleave', function() { this.pause(); this.load(); });
+				});
+			</script>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
